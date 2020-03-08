@@ -22,13 +22,8 @@ const App = () => {
 				<div className='text-container'>
 					<h1>Shantanu Sengupta</h1>
 					<p>
-						-- Front End Engineer @ AWS
-						<br /> -- Competitive Coding Enthusiast
-						<br /> -- Data visualization extraordinaire
-						<br /> -- Amateur chef
-						<br /> -- Voracious reader
-						<br /> -- Video game noob
-						<br /> -- Photography dabbler
+						Front End Engineer @ AWS &nbsp; | &nbsp;Competitive Coding Enthusiast &nbsp; | &nbsp;Data visualization extraordinaire &nbsp; |
+						&nbsp;Amateur chef &nbsp; | &nbsp;Voracious reader &nbsp; | &nbsp;Video game noob &nbsp; | &nbsp;Photography dabbler
 					</p>
 				</div>
 			</div>

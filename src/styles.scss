@@ -2,27 +2,27 @@ body {
 	margin: 0px;
 	padding: 0px;
 	h1 {
-		font-family: 'Cormorant Garamond', serif;
-		font-style: italic;
+		font-family: 'Playfair Display', serif;
 		font-weight: bold;
 		margin: 0;
 	}
 	p {
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: bold;
 	}
 }
 
 .darkContainer {
-	background-color: black;
-	color: white;
+	background-color: #0d1321;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	color: #f0ebd8;
 }
 
 .lightContainer {
-	background-color: white;
-	color: black;
+	background-color: #dad2bc;
+	color: #433633;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -52,11 +52,11 @@ body {
 		flex-direction: row;
 
 		h1 {
-			font-size: 50px;
+			font-size: 90px;
 		}
 
 		p {
-			font-size: 20px;
+			font-size: 30px;
 		}
 
 		.text-container {
@@ -72,6 +72,7 @@ body {
 				margin: 0 10px;
 				height: 70vh;
 				width: auto;
+				border: 10px solid;
 			}
 		}
 	}
