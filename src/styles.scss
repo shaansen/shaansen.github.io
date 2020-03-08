@@ -5,11 +5,10 @@ body {
 		font-family: 'Cormorant Garamond', serif;
 		font-style: italic;
 		font-weight: bold;
-		font-size: 50px;
+		margin: 0;
 	}
 	p {
 		font-family: 'Fira Sans', sans-serif;
-		font-size: 20px;
 	}
 }
 
@@ -19,40 +18,6 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-
-	.header {
-		margin: 0 -20px;
-		height: 5vh;
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: flex-end;
-	}
-
-	.main-content {
-		height: 95vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: row;
-
-		.text-container {
-			flex: 1;
-			margin: 0 10px;
-		}
-
-		.profile-picture {
-			flex: 1;
-			justify-content: flex-end;
-			img {
-				float: right;
-				margin: 0 10px;
-				height: 500px;
-				width: auto;
-			}
-		}
-	}
 }
 
 .lightContainer {
@@ -61,7 +26,14 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+}
 
+.fa {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+@media screen and (min-width: 500px) {
 	.header {
 		margin: 0 -20px;
 		height: 5vh;
@@ -79,6 +51,14 @@ body {
 		justify-content: center;
 		flex-direction: row;
 
+		h1 {
+			font-size: 50px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
 		.text-container {
 			flex: 1;
 			margin: 0 10px;
@@ -90,14 +70,54 @@ body {
 			img {
 				float: right;
 				margin: 0 10px;
-				height: 500px;
+				height: 70vh;
 				width: auto;
 			}
 		}
 	}
 }
 
-.fa {
-	font-size: 20px;
-	margin: 0 10px;
+@media screen and (max-width: 500px) {
+	.header {
+		height: 5vh;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.main-content {
+		height: 95vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		h1 {
+			font-size: 40px;
+		}
+
+		p {
+			font-size: 15px;
+		}
+
+		.text-container {
+			flex: 1;
+			margin: 0 10px;
+			width: 90vw;
+		}
+
+		.profile-picture {
+			flex: 1;
+			justify-content: flex-end;
+			padding: 10px;
+			img {
+				float: right;
+				margin: 0 10px;
+				height: 500px;
+				width: auto;
+			}
+		}
+	}
 }

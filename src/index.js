@@ -22,13 +22,13 @@ const App = () => {
 				<div className='text-container'>
 					<h1>Shantanu Sengupta</h1>
 					<p>
-						Front End Engineer @ AWS
-						<br /> Competitive Coding Enthusiast
-						<br /> Data visualization extraordinaire
-						<br /> Amateur chef
-						<br /> Voracious reader
-						<br /> Video game noob
-						<br /> Photography dabbler
+						-- Front End Engineer @ AWS
+						<br /> -- Competitive Coding Enthusiast
+						<br /> -- Data visualization extraordinaire
+						<br /> -- Amateur chef
+						<br /> -- Voracious reader
+						<br /> -- Video game noob
+						<br /> -- Photography dabbler
 					</p>
 				</div>
 			</div>
@@ -36,5 +36,4 @@ const App = () => {
 	);
 };
 
-const wrapper = document.getElementById('container');
-ReactDOM.render(<App />, wrapper);
+ReactDOM.render(<App />, document.body);
