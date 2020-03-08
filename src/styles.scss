@@ -1,0 +1,53 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.darkContainer {
+	background-color: black;
+	color: white;
+
+	.header {
+		height: 10vh;
+		float: right;
+		margin: 20px;
+	}
+
+	.main-content {
+		display: flex;
+		height: 90vh;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.profile-picture {
+		height: 500px;
+		width: auto;
+	}
+}
+
+.lightContainer {
+	background-color: white;
+	color: black;
+	height: 100vh;
+
+	.header {
+		height: 10vh;
+		float: right;
+		margin: 20px;
+	}
+
+	.main-content {
+		display: flex;
+		height: 90vh;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.profile-picture {
+		height: 500px;
+		width: auto;
+	}
+}
